@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    color: #fff;
+    background-color: #121212;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.modern-icon {
+    color: #00D1FF;
+    margin-right: 10px;
+}
+
+.input-group {
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.modern-input {
+    background-color: #1E1E1E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px 0 0 50px;
+}
+
+.modern-input:focus {
+    border: none;
+    box-shadow: none;
+    background-color: #333333;
+    color: white;
+}
+
+.modern-btn {
+    background: linear-gradient(45deg, #00D1FF, #0075FF);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 0 50px 50px 0;
+    transition: background-color 0.3s ease;
+}
+
+.modern-btn:hover {
+    background: linear-gradient(45deg, #0075FF, #00D1FF);
+}
+
+.modern-input::placeholder {
+    color: #ffffff;
+}
+
+
+/* Task Styles */
+.task {
+    background-color: #1E1E1E;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.task div {
+    font-size: 1.2rem;
+}
+
+.task .btn {
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888888;
+}
+
+.btn {
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+}
+
+.btn-info {
+    background-color: #00C896;
+    border: none;
+}
+
+.btn-success {
+    background-color: #009688;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #F44336;
+    border: none;
+}
+
+/* Input Field Focus */
+.form-control:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
